@@ -1,0 +1,79 @@
+.header {
+  border-bottom: 3px solid rgba(237, 237, 237, 0.4);
+  padding: 1.5rem 0 1.5rem 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__breadcrumbs-list {
+    padding: 0;
+    display: flex;
+  }
+
+  &__breadcrumbs-link {
+    color: $color-1;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  &__breadcrumbs-pointer {
+    color: $color-1;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 1.9rem 0 1.9rem;
+  }
+
+  &__breadcrumbs-link_current {
+    color: $color-2;
+    font-size: 1.6rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  &__controls-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__search-field {
+    width: 28.5rem;
+    height: 3.8rem;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 0.4rem;
+    padding-left: 2.1rem;
+    font-size: 1.2rem;
+    background: url("/images/header/search.jpg") no-repeat 250px 10px;
+
+    &::placeholder {
+      color: #999;
+      font-size: 1.2rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  &__notification-item-mail {
+    margin-left: 2.8rem;
+  }
+
+  &__notification-item-notice {
+    margin: 0 3.3rem 0 1.3rem;
+  }
+
+  &__controls-image {
+    margin-right: 1rem;
+  }
+
+  &__controls-users-list {
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+}
