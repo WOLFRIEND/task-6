@@ -1,0 +1,135 @@
+.overview {
+  background: #ededed;
+  padding: 6.2rem 0 3rem 0;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__happiness,
+  &__turnover,
+  &__orders {
+    width: 32%;
+    text-align: center;
+    border-radius: 6px;
+  }
+
+  &__happiness {
+    background: #fff;
+    padding: 2.5rem 0 2.5rem 0;
+  }
+
+  &__heading {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4f4f4f;
+    margin-top: 0;
+  }
+
+  &__happiness-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+
+  &__happiness-progress-bar {
+    display: inline-block;
+    margin: 0 auto;
+    width: 73%;
+    background: #ededed;
+    border-radius: 5px;
+  }
+
+  &__happiness-progress-line {
+    width: 90%;
+    height: 1rem;
+    background: $color-5;
+    border-radius: 5px;
+  }
+
+  &__happiness-progress-perc {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+
+  &__turnover {
+    align-self: stretch;
+    background: white url("/images/overview/statistic.png") no-repeat bottom;
+    padding: 2.5rem 0 2.5rem 0;
+  }
+
+  &__turnover-progress {
+    color: #4f4f4f;
+    font-size: 4.4rem;
+    font-weight: 700;
+  }
+
+  &__orders-total,
+  &__orders-progress {
+    display: flex;
+    background: #fff;
+    border-radius: 6px;
+  }
+
+  &__orders-total {
+    margin-bottom: 2rem;
+  }
+
+  &__orders-image {
+    height: 100%;
+  }
+
+  &__orders-description {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__orders-total-heading {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-5;
+    vertical-align: top;
+  }
+
+  &__orders-total-num {
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: #4f4f4f;
+  }
+
+  &__orders-progress-heading {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-2;
+  }
+
+  &__current {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 3rem;
+    padding: 3rem 0 3rem 0;
+  }
+
+  &__current-state {
+    width: 33%;
+    text-align: center;
+  }
+
+  &__number {
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: #4f4f4f;
+  }
+
+  &__current-state_mod {
+    border-left: 2px solid rgb(237, 237, 237);
+    border-right: 2px solid rgb(237, 237, 237);
+  }
+}
